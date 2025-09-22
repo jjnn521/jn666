@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>每日特价</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            margin: 20px;
+        }
+
+        .daily-deals {
+            flex: 3;
+        }
+
+        .categories {
+            flex: 1;
+            margin-left: 20px;
+            border-left: 1px solid #000;
+            padding-left: 20px;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .product {
+            width: 150px;
+            text-align: center;
+            border: 1px solid #000;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .product img {
+            width: 50px;
+            height: 50px;
+        }
+
+        .categories ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .categories li {
+            padding: 5px 0;
+        }
+
+        h1 {
+            display: flex;
+            align-items: center;
+        }
+
+        h1 span {
+            font-size: 16px;
+            margin-left: 10px;
+            padding: 5px;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="daily-deals">
+        <h1>每日特价 <span>21天最低价</span></h1>
+        <div class="products">
+            <div class="product">
+                <img src="https://via.placeholder.co/50" alt="鸡蛋">
+                <p>鸡蛋<br>0.4元/个</p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.co/50" alt="苹果">
+                <p>苹果<br>6.8元/500g</p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.co/50" alt="东北大米">
+                <p>东北大米<br>2.96元/500g</p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.co/50" alt="乐事薯片">
+                <p>乐事薯片<br>4.8元/袋</p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.co/50" alt="长筒靴">
+                <p>长筒靴<br>98元/双</p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.co/50" alt="男内裤">
+                <p>男内裤<br>28元/件</p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.co/50" alt="牛奶">
+                <p>牛奶<br>48元/提</p>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.co/50" alt="篮球">
+                <p>篮球<br>66元/个</p>
+            </div>
+        </div>
+    </div>
+    <div class="categories">
+        <ul>
+            <li>分类</li>
+            <li>精品</li>
+            <li>百货</li>
+            <li>男士</li>
+            <li>母婴</li>
+            <li>妆品</li>
+            <li>运动</li>
+            <li>零食</li>
+            <li>生鲜</li>
+        </ul>
+    </div>
+</body>
+
+</html>
